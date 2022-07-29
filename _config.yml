@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: Prepicter                          # the main title
 
-tagline: just do it   # it will display as the sub-title
+tagline: 의미가 있기를   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   machine learning, Data Science. etc...
@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
+img_cdn: 'https://github.com/Prepicter/prepicter.github.io/blob/master'
 
 # the avatar on sidebar, support local or CORS resources
 avatar: 'assets/img/avatar.png'
