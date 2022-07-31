@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Prepicter 저장소                         # the main title
+title: Prepicter                        # the main title
 
 tagline: 의미가 있기를   # it will display as the sub-title
 
