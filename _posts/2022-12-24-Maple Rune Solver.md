@@ -56,7 +56,9 @@ Object Detection 공부 용으로 시작
 ![part_0](https://user-images.githubusercontent.com/42761686/209433883-675ec463-1df7-47e3-8b2e-d57ce68014c3.png) ![part_3](https://user-images.githubusercontent.com/42761686/209433969-26365ec9-1b90-4066-8ad3-def43f61c375.png) ![part_5](https://user-images.githubusercontent.com/42761686/209434000-e92be8ec-2ae0-412a-aaa5-2a12904a6c13.png) ![part_11](https://user-images.githubusercontent.com/42761686/209434079-cf2754de-a5ed-4bdb-a146-436eeddd811f.png)
 
 **분포**
+
 ![분포](https://user-images.githubusercontent.com/42761686/209434459-1947a600-33ff-4bbf-9e9c-73a083e630d3.png)
+
 참고로 left right top top 이였다.
 
 **결과**
