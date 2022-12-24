@@ -34,7 +34,8 @@ Object Detection 공부 용으로 시작
 
 **문제가 되는 경우**
 
-![error 1](https://user-images.githubusercontent.com/42761686/209433738-6d1f09e7-b02e-449b-933b-47601608b617.png)  	     ![error2](https://user-images.githubusercontent.com/42761686/209433751-96d8b5a2-ab40-44da-aacb-c8e1000117e2.png)
+![error1](https://user-images.githubusercontent.com/42761686/209433738-6d1f09e7-b02e-449b-933b-47601608b617.png)  	     
+![error2](https://user-images.githubusercontent.com/42761686/209433751-96d8b5a2-ab40-44da-aacb-c8e1000117e2.png)
 
 
 
@@ -53,7 +54,9 @@ Object Detection 공부 용으로 시작
 
 **조금씩 이동**
 
-![part_0](https://user-images.githubusercontent.com/42761686/209433883-675ec463-1df7-47e3-8b2e-d57ce68014c3.png) ![part_3](https://user-images.githubusercontent.com/42761686/209433969-26365ec9-1b90-4066-8ad3-def43f61c375.png) ![part_5](https://user-images.githubusercontent.com/42761686/209434000-e92be8ec-2ae0-412a-aaa5-2a12904a6c13.png) ![part_11](https://user-images.githubusercontent.com/42761686/209434079-cf2754de-a5ed-4bdb-a146-436eeddd811f.png)
+![part_0](https://user-images.githubusercontent.com/42761686/209433883-675ec463-1df7-47e3-8b2e-d57ce68014c3.png)
+![part_3](https://user-images.githubusercontent.com/42761686/209433969-26365ec9-1b90-4066-8ad3-def43f61c375.png)
+![part_5](https://user-images.githubusercontent.com/42761686/209434000-e92be8ec-2ae0-412a-aaa5-2a12904a6c13.png)
 
 **분포**
 
