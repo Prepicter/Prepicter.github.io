@@ -25,11 +25,15 @@ Object Detection 공부 용으로 시작
 노이즈를 추가하여 데이터를 증식시켰고, 약 1500장의 이미지를 학습데이터로 사용하였다.
 
 **추출된 룬 영역** 
+
 ![룬 영역](https://user-images.githubusercontent.com/42761686/209433667-57811e95-a002-431c-9843-9f687d90ef25.png)
+
 **이상적인 슬라이싱**
+
 ![correct](https://user-images.githubusercontent.com/42761686/209433695-838e927a-6044-44b5-afe6-8305559aeffa.png)
 
 **문제가 되는 경우**
+
 ![error 1](https://user-images.githubusercontent.com/42761686/209433738-6d1f09e7-b02e-449b-933b-47601608b617.png)  	     ![error2](https://user-images.githubusercontent.com/42761686/209433751-96d8b5a2-ab40-44da-aacb-c8e1000117e2.png)
 
 
@@ -48,6 +52,7 @@ Object Detection 공부 용으로 시작
 조금씩 이동하면서 각각 분류시킨후 분포에 따라 분류를 시키기
 
 **조금씩 이동**
+
 ![part_0](https://user-images.githubusercontent.com/42761686/209433883-675ec463-1df7-47e3-8b2e-d57ce68014c3.png) ![part_3](https://user-images.githubusercontent.com/42761686/209433969-26365ec9-1b90-4066-8ad3-def43f61c375.png) ![part_5](https://user-images.githubusercontent.com/42761686/209434000-e92be8ec-2ae0-412a-aaa5-2a12904a6c13.png) ![part_11](https://user-images.githubusercontent.com/42761686/209434079-cf2754de-a5ed-4bdb-a146-436eeddd811f.png)
 
 **분포**
@@ -70,9 +75,11 @@ Yolo v4를 사용하였다.
 3. 결과 출력
 
 **416 사이즈로 뽑기**
+
 ![resized_1-min](https://user-images.githubusercontent.com/42761686/209434282-6e5fb520-63a7-4fa1-b3ba-4047141216b2.png)
 
 **출력**
+
 ![1_rect-min](https://user-images.githubusercontent.com/42761686/209434261-ca9821e3-ed1a-47bd-8072-d5ebc00cb9a6.png)
 
 
@@ -88,6 +95,7 @@ Yolo v4를 사용하였다.
 이미지 사이즈가 다르니, 학습데이터를 조정후 다시 학습시켰다.
 
 **분류기에 넣기**
+
  ![1_1](https://user-images.githubusercontent.com/42761686/209434393-c6867d01-c7be-48d7-8d53-328e0e38a0fa.png)  
 
 **출력**
@@ -103,9 +111,9 @@ Yolo v4를 사용하였다.
 
 ## 끝내면서
 
-Yolo는 ROI를 찾으면서 동시에 분류를 하여 속도가 빠르다.
-근데 여기서는 분류기를 추가로 넣었으니 의미가 없지 않나.
-차라리 Masked R-CNN으로 만들었다면, 추가로 분류기를 안 넣어도 잘 찾지 않았을까?
+ - Yolo는 ROI를 찾으면서 동시에 분류를 하여 속도가 빠르다.
+ - 근데 여기서는 분류기를 추가로 넣었으니 의미가 없지 않나.
+ - 차라리 Masked R-CNN으로 만들었다면, 추가로 분류기를 안 넣어도 잘 찾지 않았을까?
 
 > 코드는 추후 github에 업로드
 
